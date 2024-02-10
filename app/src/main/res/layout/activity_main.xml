@@ -20,7 +20,7 @@
         android:layout_height="match_parent"
         android:id="@+id/idRLHome"
         android:visibility="gone"
-        />
+        >
 
     <ImageView
         android:id="@+id/idIVBack"
@@ -83,8 +83,7 @@
             android:layout_gravity="center"
             android:background="@android:color/transparent"
             android:src="@drawable/ic_search"
-            android:tint="@color/white"
-
+            app:tint="@color/white"
             />
     </LinearLayout>
 
